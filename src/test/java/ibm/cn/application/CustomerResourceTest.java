@@ -9,13 +9,13 @@ import static org.hamcrest.CoreMatchers.is;
 @QuarkusTest
 public class CustomerResourceTest {
 
-    @Test
-    public void testHelloEndpoint() {
-        given()
-          .when().get("/micro/customer/resource")
-          .then()
-             .statusCode(200)
-             .body(is("CustomerResource response"));
-    }
+    // @Test
+    // public void testHelloEndpoint() {
+    //     given()
+    //       .when().get("/micro/customer/resource")
+    //       .then()
+    //          .statusCode(200)
+    //          .body(is("CustomerResource response"));
+    // }
 
 }
