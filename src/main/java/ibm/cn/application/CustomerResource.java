@@ -31,7 +31,7 @@ public class CustomerResource {
     @SuppressWarnings("unchecked")
 	@GET
     @Produces(MediaType.APPLICATION_JSON)
-    @RolesAllowed({"user","admin"})
+//    @RolesAllowed({"user","admin"})
     public Response getCustomerByUsername() throws Exception{
     	LOG.info("Get customer by username");
         try {
